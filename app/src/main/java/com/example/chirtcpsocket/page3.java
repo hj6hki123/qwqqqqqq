@@ -49,6 +49,7 @@ public class page3 extends Fragment {
                 bundle.putString("bundleKey", "result");
                 getParentFragmentManager().setFragmentResult("requestKey", bundle);
                 Log.e("Isend","result");
+                Log.e("Isend2","result");
 
                 Intent qw=new Intent("KEY");
                 qw.putExtra("light","hellola");

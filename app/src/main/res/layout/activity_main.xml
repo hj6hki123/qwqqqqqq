@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="#A1000000"
+            app:tabTextColor="#9B89BA"
             />
     </com.google.android.material.appbar.AppBarLayout>
 

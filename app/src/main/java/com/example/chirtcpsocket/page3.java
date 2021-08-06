@@ -21,7 +21,6 @@ import com.example.chirtcpsocket.ui.main.MyBroadcastReceiver;
 import static android.provider.Contacts.SettingsColumns.KEY;
 
 public class page3 extends Fragment {
-    Button sendBtn;
 
     @Nullable
     @Override
@@ -38,23 +37,5 @@ public class page3 extends Fragment {
         MyBroadcastReceiver mMyReceiver = new MyBroadcastReceiver();
         getActivity().registerReceiver(mMyReceiver, itFilter); //註冊廣播接收器
 
-
-
-
-        sendBtn=(Button)getView().findViewById(R.id.btnsend);
-        sendBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Bundle bundle = new Bundle();
-                bundle.putString("bundleKey", "result");
-                getParentFragmentManager().setFragmentResult("requestKey", bundle);
-                Log.e("Isend","result");
-
-                Intent qw=new Intent("KEY");
-                qw.putExtra("light","hellola");
-                getActivity().sendBroadcast(qw);
-
-            }
-        });
     }
 }

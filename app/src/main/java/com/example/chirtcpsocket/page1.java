@@ -21,8 +21,6 @@ import com.example.chirtcpsocket.ui.main.MyBroadcastReceiver;
 
 public class page1 extends Fragment {
     Thread threadA;
-    TextView page1T;
-    String result="";
     MyBroadcastReceiver mMyReceiver;
 
     @Nullable
@@ -34,7 +32,6 @@ public class page1 extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        page1T=(TextView)getView().findViewById(R.id.page1text);
     }
 
     @Override

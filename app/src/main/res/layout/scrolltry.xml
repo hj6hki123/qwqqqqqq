@@ -110,25 +110,34 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+
             <ImageView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="亮度"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:text="900"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="20sp"
                 />
-            <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="亮度"
-                android:gravity="center"
-                android:textSize="20sp"/>
-            <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="900"
-                android:gravity="center"
-                android:textSize="20sp"/>
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -143,23 +152,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="濕度"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -174,23 +193,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="溫度"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -205,23 +234,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="消耗功率"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -236,23 +275,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="風速"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -267,23 +316,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="熱顯溫度"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -298,23 +357,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="二氧化碳"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -329,23 +398,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="甲醛"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -360,23 +439,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="揮發性有機物"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -391,23 +480,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="PM2.5"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -422,23 +521,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="PM10"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -453,23 +562,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="光電感應"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -484,23 +603,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="雨滴"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -515,23 +644,33 @@
             >
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:text="亮度"
+                android:layout_weight="3"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:text="人臉"
+                android:textSize="20sp" />
+
             <TextView
-                android:layout_weight="4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="3"
+                android:gravity="right"
                 android:text="900"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"

@@ -114,12 +114,13 @@
             <ImageView
                 android:layout_width="0dip"
                 android:layout_height="match_parent"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@drawable/light"/>
 
             <TextView
                 android:layout_width="0dip"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="亮度"
                 android:textSize="20sp" />
@@ -127,9 +128,10 @@
             <TextView
                 android:layout_width="0dip"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
             <TextView
                 android:layout_width="0dip"
@@ -139,10 +141,12 @@
                 android:textSize="20sp"
                 />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -153,13 +157,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/wet" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="濕度"
                 android:textSize="20sp" />
@@ -167,9 +172,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -180,10 +186,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -194,13 +202,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/temp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="溫度"
                 android:textSize="20sp" />
@@ -208,9 +217,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -221,10 +231,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -235,13 +247,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/watt" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="消耗功率"
                 android:textSize="20sp" />
@@ -249,9 +262,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -262,10 +276,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -276,13 +292,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/wind"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="風速"
                 android:textSize="20sp" />
@@ -290,9 +307,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -303,10 +321,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -317,13 +337,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/infrared"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="熱顯溫度"
                 android:textSize="20sp" />
@@ -331,9 +352,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -344,10 +366,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -358,13 +382,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/co2"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="二氧化碳"
                 android:textSize="20sp" />
@@ -372,9 +397,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -385,10 +411,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -399,13 +427,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ch2o"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="甲醛"
                 android:textSize="20sp" />
@@ -413,9 +442,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -426,10 +456,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -440,13 +472,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/chemical"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="揮發性有機物"
                 android:textSize="20sp" />
@@ -454,9 +487,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -467,10 +501,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -481,13 +517,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pm25"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="PM2.5"
                 android:textSize="20sp" />
@@ -495,9 +532,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -508,10 +546,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -522,13 +562,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pm10"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="PM10"
                 android:textSize="20sp" />
@@ -536,9 +577,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -549,10 +591,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -563,13 +607,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/sensor"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="光電感應"
                 android:textSize="20sp" />
@@ -577,9 +622,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -590,10 +636,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -604,13 +652,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/drop"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="雨滴"
                 android:textSize="20sp" />
@@ -618,9 +667,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -631,10 +681,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
         <!--"==========================================================================1"-->
         <LinearLayout
@@ -645,13 +697,14 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/face_recognition"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:gravity="center"
                 android:text="人臉"
                 android:textSize="20sp" />
@@ -659,9 +712,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:gravity="right"
-                android:text="900"
+                android:text="0"
+                android:textColor="#7E8C13A1"
                 android:textSize="20sp" />
 
             <TextView
@@ -672,10 +726,12 @@
                 android:gravity="center"
                 android:textSize="20sp" />
         </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#9C27B0" />
+            android:alpha="0.1"
+            android:background="#0D1023" />
         <!--"==========================================================================1"-->
 
 

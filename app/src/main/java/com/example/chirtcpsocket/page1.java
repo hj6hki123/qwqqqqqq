@@ -22,6 +22,7 @@ import com.example.chirtcpsocket.ui.main.MyBroadcastReceiver;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -149,7 +150,7 @@ public class page1 extends Fragment {
                 Log.e("llllllllllllllll", "4");
                 //???????????????????製作跳至設定ip之fragment?????????????
             }
-        } catch (java.io.IOException e) {
+        } catch (IOException e) {
 
             Log.e("msg1", "Socket連線有問題 !");
             Log.e("msg1", "IOException :" + e.toString());

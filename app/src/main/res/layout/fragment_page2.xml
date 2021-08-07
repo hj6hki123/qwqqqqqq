@@ -33,7 +33,7 @@
                 android:layout_width="170dp"
                 android:layout_height="60dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗簾-開"
+                android:text="開"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -43,7 +43,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗簾-關"
+                android:text="關"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -53,7 +53,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗簾-停止"
+                android:text="停止"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -83,7 +83,7 @@
                 android:layout_width="170dp"
                 android:layout_height="60dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗戶-開"
+                android:text="開"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -93,7 +93,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗戶-關"
+                android:text="關"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -103,7 +103,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/buttonshape"
-                android:text="窗戶-停止"
+                android:text="停止"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -141,7 +141,7 @@
                 android:layout_width="170dp"
                 android:layout_height="60dp"
                 android:background="@drawable/buttonshape"
-                android:text="風扇-開"
+                android:text="開"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
 
@@ -151,7 +151,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/buttonshape"
-                android:text="風扇-關"
+                android:text="關"
                 android:textColor="#F9FFF7"
                 android:textSize="30sp" />
             <LinearLayout

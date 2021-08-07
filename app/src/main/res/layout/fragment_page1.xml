@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     android:gravity="bottom"
     android:orientation="vertical"
+    android:background="#36906ECD"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="8"
-        android:textSize="30sp" >
+        android:textSize="30sp"
+        >
 
 
     </LinearLayout>

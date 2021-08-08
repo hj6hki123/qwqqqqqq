@@ -69,6 +69,7 @@ public class page1 extends Fragment {
         Dsensor=(TextView)getView().findViewById(R.id.data_sensor);
         Ddrop=(TextView)getView().findViewById(R.id.data_drop);
         Dface=(TextView)getView().findViewById(R.id.data_face);
+        allclear();
 
     }
 
@@ -266,20 +267,20 @@ public class page1 extends Fragment {
     }
     private void allclear()
     {
-        Dlight.setText("0");
-        Dtemp.setText("0");
-        Dwet.setText("0");
-        Dwatt.setText("0");
-        Dwind.setText("0");
-        Dhottemp.setText("0");
-        Dco2.setText("0");
-        Dch2o.setText("0");
-        Dchemical.setText("0");
-        Dpm25.setText("0");
-        Dpm10.setText("0");
-        Dsensor.setText("0");
-        Ddrop.setText("0");
-        Dface.setText("0");
+        Dlight.setText("");
+        Dtemp.setText("");
+        Dwet.setText("");
+        Dwatt.setText("");
+        Dwind.setText("");
+        Dhottemp.setText("");
+        Dco2.setText("");
+        Dch2o.setText("");
+        Dchemical.setText("");
+        Dpm25.setText("");
+        Dpm10.setText("");
+        Dsensor.setText("");
+        Ddrop.setText("");
+        Dface.setText("");
     }
 
 

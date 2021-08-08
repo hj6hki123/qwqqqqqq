@@ -27,8 +27,29 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="#9B89BA"
-            />
+            app:tabTextColor="#9B89BA">
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="感測器"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="電器"/>
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="燈光"/>
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+
+
+
+
+
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager

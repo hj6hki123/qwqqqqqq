@@ -97,7 +97,11 @@ public class page1 extends Fragment {
                 Log.e("thread","while");
                 connectfrag=CheckConnect();
                 if(connectfrag==false)
+                {
+                    allclear();
                     continue;
+                }
+
                 else if(connectfrag==true)
                 {
                     try
@@ -185,9 +189,13 @@ public class page1 extends Fragment {
                                 }
                                 catch (Exception e)
                                 {
-
+                                    Log.e("Exception",e.toString());
                                 }
                             }
+                            else
+                                allclear();
+
+
 
                         }
 
@@ -255,6 +263,25 @@ public class page1 extends Fragment {
             return true;
         }
     }
+    private void allclear()
+    {
+        Dlight.setText("0");
+        Dtemp.setText("0");
+        Dwet.setText("0");
+        Dwatt.setText("0");
+        Dwind.setText("0");
+        Dhottemp.setText("0");
+        Dco2.setText("0");
+        Dch2o.setText("0");
+        Dchemical.setText("0");
+        Dpm25.setText("0");
+        Dpm10.setText("0");
+        Dsensor.setText("0");
+        Ddrop.setText("0");
+        Dface.setText("0");
+    }
+
+
 
 
 }

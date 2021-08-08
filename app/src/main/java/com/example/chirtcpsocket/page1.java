@@ -142,43 +142,44 @@ public class page1 extends Fragment {
                                     dwatt=dwatt/100;
                                     Dwatt.setText(Double.toString(dwatt));////
 
-                                    int dwind=(buffer_decode[10]*256)
-                                            +(buffer_decode[11]);
-                                    Dwind.setText(Integer.toString(dwind));
+                                    double dwind=(buffer_decode[11]*256)
+                                            +(buffer_decode[12]);
+                                    dwind=dwind/10;
+                                    Dwind.setText(Double.toString(dwind));
 
-                                    int dhottemp=(buffer_decode[12]*256)
-                                            +(buffer_decode[13]);
-                                    Dhottemp.setText(Integer.toString(dhottemp));
+                                    double dhottemp=(buffer_decode[13]*256)
+                                            +(buffer_decode[14]);
+                                    dhottemp=dhottemp/10;
+                                    Dhottemp.setText(Double.toString(dhottemp));
 
-                                    int dco2=(buffer_decode[14]*256)
-                                            +(buffer_decode[15]);
-                                    Dco2.setText(Integer.toString(dco2));
+                                    double dco2=(buffer_decode[15]*256)
+                                            +(buffer_decode[16]);
+                                    Dco2.setText(Double.toString(dco2));
 
-                                    int dch2o=(buffer_decode[16]*256)
-                                            +(buffer_decode[17]);
-                                    Dch2o.setText(Integer.toString(dch2o));
+                                    double dch2o=(buffer_decode[17]*256)
+                                            +(buffer_decode[18]);
+                                    Dch2o.setText(Double.toString(dch2o));
 
-                                    int dchemical=(buffer_decode[18]*256)
-                                            +(buffer_decode[19]);
-                                    Dchemical.setText(Integer.toString(dchemical));
+                                    double dchemical=(buffer_decode[19]*256)
+                                            +(buffer_decode[20]);
+                                    Dchemical.setText(Double.toString(dchemical));
 
-                                    int dpm25=(buffer_decode[20]*256)
-                                            +(buffer_decode[21]);
-                                    Dpm25.setText(Integer.toString(dpm25));
+                                    double dpm25=(buffer_decode[21]*256)
+                                            +(buffer_decode[22]);
+                                    Dpm25.setText(Double.toString(dpm25));
 
-                                    int dpm10=(buffer_decode[22]*256)
-                                            +(buffer_decode[23]);
-                                    Dpm10.setText(Integer.toString(dpm10));
+                                    double dpm10=(buffer_decode[23]*256)
+                                            +(buffer_decode[24]);
+                                    Dpm10.setText(Double.toString(dpm10));
 
-                                    int dpmsensor=(buffer_decode[24]);
-                                    Dsensor.setText(Integer.toString(dpmsensor));
+                                    double dpmsensor=(buffer_decode[25]);
+                                    Dsensor.setText(Double.toString(dpmsensor));
 
-                                    int ddrop=(buffer_decode[25]);
-                                    Ddrop.setText(Integer.toString(ddrop));
+                                    double ddrop=(buffer_decode[26]);
+                                    Ddrop.setText(Double.toString(ddrop));
 
-                                    int dfaca=(buffer_decode[26]);
-                                    Dface.setText(Integer.toString(dfaca));
-
+                                    double dfaca=(buffer_decode[27]);
+                                    Dface.setText(Double.toString(dfaca));
 
 
                                 }

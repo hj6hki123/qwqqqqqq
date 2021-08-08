@@ -97,10 +97,8 @@ public class page1 extends Fragment {
                 Log.e("thread","while");
                 connectfrag=CheckConnect();
                 if(connectfrag==false)
-                {
-                    allclear();
                     continue;
-                }
+
 
                 else if(connectfrag==true)
                 {
@@ -203,6 +201,7 @@ public class page1 extends Fragment {
                     catch (java.io.IOException e)
 
                     {
+                        allclear();
                         clientSocket=null;
                         connectfrag=false;
                     }

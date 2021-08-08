@@ -126,6 +126,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_light"
                 android:layout_width="0dip"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -170,6 +171,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_wet"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -215,6 +217,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_temp"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -260,6 +263,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_watt"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -305,6 +309,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_wind"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -350,6 +355,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_hottemp"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -395,6 +401,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_co2"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -440,6 +447,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_ch2o"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -485,6 +493,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_chemical"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -530,6 +539,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_pm25"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -575,6 +585,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_pm10"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -620,6 +631,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_sensor"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -665,6 +677,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_drop"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
@@ -710,6 +723,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/data_face"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
